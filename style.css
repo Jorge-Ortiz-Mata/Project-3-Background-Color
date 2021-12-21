@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #006b86;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* --------------------------------------        FIRST SECTION        -----------------------------------------*/
+
+.firstSection {
+    border: 1px solid #ff0000;  /*   Border to delete later.  */
+    background-color: #ffffff;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ----------- First Part ------------*/
+
+.firstPart {
+    border: 1px solid #0077ff;  /*   Border to delete later.  */
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionLogo {
+    border: 1px solid #ff0000;  /*   Border to delete later.  */
+    display: flex;
+}
+
+.logoImage {
+    border: 1px solid #0077ff;  /*   Border to delete later.  */
+    width: 100px;
+}
+
+.logoInformation {
+    border: 1px solid #0077ff;  /*   Border to delete later.  */
+    display: flex;
+    flex-direction: column;
+}
+
+.logoName {
+    border: 1px solid #ff0000;  /*   Border to delete later.  */
+    margin-top: auto;
+}
+
+.logoDescription {
+    border: 1px solid #ff0000;  /*   Border to delete later.  */
+    margin-bottom: auto;
+}
+
+.mainMenu {
+    border: 1px solid #ff0000;  /*   Border to delete later.  */
+}
+
+/* ----------- Second Part ------------*/
+
+.secondPart {
+    border: 1px solid #0077ff;  /*   Border to delete later.  */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.companyImage {
+    border: 1px solid #ff0000;  /*   Border to delete later.  */
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
