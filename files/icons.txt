@@ -1,0 +1,14 @@
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+
+    <i class="fab fa-facebook"></i>
+    <i class="fas fa-home"></i>
+    <i class="fab fa-instagram-square"></i>
+    <i class="fab fa-whatsapp-square"></i>
+    <i class="fas fa-envelope-square"></i>
+    <i class="fas fa-user-friends"></i>
+    <i class="fas fa-bars"></i>
+    <i class="fas fa-angle-right"></i>
+    <i class="fas fa-angle-left"></i>
+    <i class="fab fa-linkedin"></i>  
