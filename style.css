@@ -21,6 +21,7 @@ html {
     background-attachment: fixed;
     background-color: #ffffffbb;
     background-blend-mode: soft-light;
+    background-size: cover;
     height: 750px;
     display: flex;
     flex-direction: column;
@@ -159,6 +160,7 @@ html {
     border: 1px solid #0077ff;  /*   Border to delete later.  */
     height: 150px;
     display: flex;
+    background-color: #ffffff;
 }
 
 .showMoreSection h2 {
