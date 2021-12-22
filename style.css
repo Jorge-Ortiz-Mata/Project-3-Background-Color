@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    color: #006b86;
+    color: #ffffff;
 }
 
 html {
@@ -12,7 +12,12 @@ html {
 
 .firstSection {
     border: 1px solid #ff0000;  /*   Border to delete later.  */
-    background-color: #ffffff;
+    background-image: url('images/tobias-keller-73F4pKoUkM0-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #000506e6;
+    background-blend-mode: soft-light;
     height: 700px;
     display: flex;
     flex-direction: column;
@@ -54,7 +59,16 @@ html {
 
 .mainMenu {
     border: 1px solid #ff0000;  /*   Border to delete later.  */
+    display: flex;
 }
+
+.ulMenu {
+    list-style: none;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 
 /* ----------- Second Part ------------*/
 
