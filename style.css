@@ -1,4 +1,4 @@
-* {
+body {
     margin: 0;
     padding: 0;
     color: #004c4a;
@@ -158,8 +158,9 @@ html {
 
 .showMoreSection {
     border: 1px solid #0077ff;  /*   Border to delete later.  */
-    height: 150px;
+    height: 600px;
     display: flex;
+    flex-direction: column;
     background-color: #ffffff;
 }
 
@@ -170,7 +171,23 @@ html {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
+    margin-top: 200px;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.buttonsSections {
+    border: 1px solid #0077ff;
+    display: flex;
     margin-top: auto;
+    margin-bottom: 200px;
+}
+
+.normalColor, .hexColor {
+    border: 1px solid #ff0000;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* --------------------------------------        THIRD SECTION        -----------------------------------------*/
@@ -184,7 +201,7 @@ html {
 .backgroundObjects {
     border: 1px solid #00ff00;  /*   Border to delete later.  */
     margin: auto;
-    height: 200px;
+    height: 400px;
     display: flex;
     flex-direction: column;
 }
@@ -203,6 +220,15 @@ html {
     width: 500px;
     margin: auto;
 }
+
+
+/* --------------------------------------        FOURTH SECTION        -----------------------------------------*/
+
+.hexColors {
+    height: 600px;
+}
+
+
 
 /* --------------------------------------        FOOTER SECTION        -----------------------------------------*/
 

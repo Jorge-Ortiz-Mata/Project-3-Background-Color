@@ -12,19 +12,27 @@
 // It'll give you a random color and you can have it either on hexadecimal or in simple form.
 // Come on, and have fun with this project.
 
+// ------------------------------------------------------------------- SIMPLE COLORS SECTION ----------------------------------------------------------
+
 // ---------------  CREATE VARIABLES ------------------
 
 const colors = [
-    'orange',
-    'blue',
-    'green',
-    'red',
-    'pink',
-    'yellow',
-    'antiquewhite',
-    'aquamarine',
+    'aliceblue',
     'aqua',
-    'brown'
+    'aquamarine',
+    'bisque',
+    'chocolate',
+    'coral',
+    'crimson',
+    'darkcyan',
+    'darkgoldenrod',
+    'darkgray',
+    'darkkhaki',
+    'darkmagenta',
+    'darkolivegreen',
+    'darkorange',
+    'darkred',
+    'darksalmon'
 ];
 
 // ---------------  SELECT OBJETCS ------------------
@@ -56,7 +64,7 @@ buttonBackgroundChange.innerHTML = `Click me to change.`;
 
 changeColor = () => {
 
-    let x = Math.floor(Math.random() * 10);
+    let x = Math.floor(Math.random() * 16);
     backgroundProject.style.backgroundColor = `${colors[x]}`;
     colorBackgroundTitle.innerHTML = `${colors[x]}`;
     console.log (x);
@@ -66,3 +74,8 @@ changeColor = () => {
 // ---------------  ADDING EVENTS LISTENERS ------------------
 
 buttonBackgroundChange.addEventListener ('click', changeColor);
+
+// ------------------------------------------------------------------- HEXADECIMAL COLORS SECTION ----------------------------------------------------------
+
+const hexColors = ['1', '2', '3', '4', '5', '6', '7', '8', '9',
+                   'A', 'B', 'C', 'D', 'E', 'F' ];
