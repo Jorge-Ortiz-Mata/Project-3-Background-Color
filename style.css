@@ -96,14 +96,12 @@ html {
 }
 
 .companyName {
-    border: 1px solid #ff0000;  /*   Border to delete later.  */
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
 }
 
 .companyImage {
-    border: 1px solid #ff0000;  /*   Border to delete later.  */
     width: 350px;
     margin-left: auto;
     margin-right: auto;
@@ -112,7 +110,6 @@ html {
 }
 
 .companyURL {
-    border: 1px solid #ff0000;  /*   Border to delete later.  */
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -121,7 +118,6 @@ html {
 }
 
 .projectName {
-    border: 1px solid #ff0000;  /*   Border to delete later.  */
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -129,7 +125,6 @@ html {
 }
 
 .descriptionProject {
-    border: 1px solid #ff0000;  /*   Border to delete later.  */
     width: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -162,7 +157,6 @@ html {
 /* --------------------------------------        SECOND SECTION        -----------------------------------------*/
 
 .showMoreSection {
-    border: 1px solid #0077ff;  /*   Border to delete later.  */
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -171,7 +165,6 @@ html {
 
 .showMoreSection h3 {
     background-color: #ffffff;
-    border: 1px solid #ff0000;  /*   Border to delete later.  */
     width: auto;
     margin-left: auto;
     margin-right: auto;
@@ -183,28 +176,36 @@ html {
 }
 
 .buttonsSections {
-    border: 1px solid #0077ff;
     display: flex;
     margin-top: auto;
     margin-bottom: 200px;
 }
 
 .normalColor, .hexColor {
-    border: 1px solid #ff0000;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #d9e9e8;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0px 0px 5px 1px;
+}
+
+.normalColor:hover, .hexColor:hover {
+    background-color: #005350;
+    color: #ebfdff;
 }
 
 /* --------------------------------------        THIRD SECTION        -----------------------------------------*/
 
 .backgroundProject {
-    border: 1px solid #ff0000;  /*   Border to delete later.  */
     height: 600px;
     display: flex;
 }
 
 .backgroundObjects {
-    border: 1px solid #00ff00;  /*   Border to delete later.  */
     margin: auto;
     height: 400px;
     display: flex;
@@ -212,13 +213,11 @@ html {
 }
 
 .backgroundProject h2 {
-    border: 1px solid #0077ff;  /*   Border to delete later.  */
     text-align: center;
     font-size: 45px;
 }
 
 .backgroundProject p {
-    border: 1px solid #0077ff;  /*   Border to delete later.  */
     text-align: center;
     font-size: 20px;
     font-weight: 700;
@@ -256,7 +255,6 @@ html {
 /* --------------------------------------        FOURTH SECTION        -----------------------------------------*/
 
 .hexColorsSection {
-    border: 1px solid #0077ff;  /*   Border to delete later.  */
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -264,7 +262,6 @@ html {
 }
 
 .divHexBack {
-    border: 1px solid #ff0000;  /*   Border to delete later.  */
     justify-content: center;
     text-align: center;
     height: auto;
@@ -276,13 +273,11 @@ html {
 }
 
 .divHexBack h2 {
-    border: 1px solid #0077ff;  /*   Border to delete later.  */
     text-align: center;
     font-size: 45px;
 }
 
 .divHexBack p {
-    border: 1px solid #0077ff;  /*   Border to delete later.  */
     text-align: center;
     font-size: 20px;
     font-weight: 700;
@@ -320,14 +315,12 @@ html {
 /* --------------------------------------        FOOTER SECTION        -----------------------------------------*/
 
 .footerSection {
-    border: 1px solid #ff0000;  /*   Border to delete later.  */
     height: 80px;
     display: flex;
-    background-color: #004c4a;
+    background-color: #022a29;
 }
 
 .footerText {
-    border: 1px solid #0077ff;  /*   Border to delete later.  */
     margin: auto;
     font-size: 15px;
     font-weight: 600;
