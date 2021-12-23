@@ -14,7 +14,6 @@ html {
 /* --------------------------------------        FIRST SECTION        -----------------------------------------*/
 
 .firstSection {
-    border: 1px solid #ff0000;  /*   Border to delete later.  */
     background-image: url('images/tobias-keller-73F4pKoUkM0-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -30,42 +29,41 @@ html {
 /* ----------- First Part ------------*/
 
 .firstPart {
-    border: 1px solid #0077ff;  /*   Border to delete later.  */
     display: flex;
     justify-content: space-between;
 }
 
 .sectionLogo {
-    border: 1px solid #ff0000;  /*   Border to delete later.  */
     display: flex;
 }
 
 .logoImage {
-    border: 1px solid #0077ff;  /*   Border to delete later.  */
-    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .logoInformation {
-    border: 1px solid #0077ff;  /*   Border to delete later.  */
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .logoName {
-    border: 1px solid #ff0000;  /*   Border to delete later.  */
     margin-top: auto;
+    margin-bottom: 0px;
 }
 
 .logoDescription {
-    border: 1px solid #ff0000;  /*   Border to delete later.  */
+    margin-top: 0px;
     margin-bottom: auto;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
 }
 
 .mainMenu {
-    border: 1px solid #ff0000;  /*   Border to delete later.  */
     display: flex;
+    height: auto;
 }
 
 .ulMenu {
@@ -76,7 +74,6 @@ html {
 }
 
 .ulMenu li {
-    border: 1px solid #0077ff;  /*   Border to delete later.  */
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -89,7 +86,6 @@ html {
 /* ----------- Second Part ------------*/
 
 .secondPart {
-    border: 1px solid #0077ff;  /*   Border to delete later.  */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -140,18 +136,27 @@ html {
     margin-top: 10px;
     margin-bottom: 20px;
     font-weight: 600;
+    font-size: 14px;
 }
 
 .buttonShowMore {
     border: 0px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
-    padding: 20px;
+    padding: auto;
     width: 200px;
+    height: 50px;
     font-weight: 700;
     font-size: 20px;
     background-color: #affffc;
+    box-shadow: 0px 0px 10px 1px;
+}
+
+.buttonShowMore:hover {
+    background-color: #005452;
+    color: #affffc;
 }
 
 /* --------------------------------------        SECOND SECTION        -----------------------------------------*/
@@ -221,6 +226,32 @@ html {
     margin: auto;
 }
 
+.buttonBackgroundChange {
+    border: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    height: auto;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #ebfdff;
+    box-shadow: 0px 0px 10px 1px;
+}
+
+.buttonBackgroundChange:hover {
+    border: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    height: auto;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #00525b;
+    box-shadow: 0px 0px 10px 1px;
+}
 
 /* --------------------------------------        FOURTH SECTION        -----------------------------------------*/
 
@@ -257,6 +288,33 @@ html {
     font-weight: 700;
     width: 500px;
     margin: auto;
+}
+
+.hexButton {
+    border: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    height: auto;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #ebfdff;
+    box-shadow: 0px 0px 10px 1px;
+}
+
+.hexButton:hover {
+    border: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    height: auto;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #00525b;
+    box-shadow: 0px 0px 10px 1px;
 }
 
 /* --------------------------------------        FOOTER SECTION        -----------------------------------------*/

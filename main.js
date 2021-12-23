@@ -1,7 +1,6 @@
 
 // ----------------------------------------------------------- PROJECT 3. BACKGROUND COLOR PROJECT. -------------------------------------------------------------
 
-
 // ING. Jorge Ortiz Mata.
 // ortiz.mata.jorge@gmail.com
 // San Luis Potosí S.L.P. México.
