@@ -162,6 +162,3 @@ hexColor.addEventListener ('click', function () {
     top: hexColorsSection.offsetTop,
     });
 });
-
-
-
