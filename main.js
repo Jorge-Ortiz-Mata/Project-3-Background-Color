@@ -144,3 +144,24 @@ buttonShowMore.addEventListener ('click', function () {
     top: showMoreSection.offsetTop,
     });
 });
+
+const normalColor = document.querySelector ('.normalColor');
+
+normalColor.addEventListener ('click', function () {
+    window.scrollTo ({
+    left: 0,
+    top: backgroundProject.offsetTop,
+    });
+});
+
+const hexColor = document.querySelector ('.hexColor');
+
+hexColor.addEventListener ('click', function () {
+    window.scrollTo ({
+    left: 0,
+    top: hexColorsSection.offsetTop,
+    });
+});
+
+
+
