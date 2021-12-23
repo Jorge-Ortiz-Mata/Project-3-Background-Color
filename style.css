@@ -157,6 +157,7 @@ html {
 /* --------------------------------------        SECOND SECTION        -----------------------------------------*/
 
 .showMoreSection {
+    border: 1px solid #022a29;
     height: 600px;
     display: flex;
     flex-direction: column;

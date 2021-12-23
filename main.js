@@ -132,3 +132,15 @@ hexButton.addEventListener ('click', function () {
     hexColorsSection.style.backgroundColor = `${cadena}`;
 
 });
+
+// ------------------------------------------------------------------- WINDOW SCROLL FUNCTION ----------------------------------------------------------
+
+const showMoreSection = document.querySelector ('.showMoreSection');
+const buttonShowMore = document.querySelector ('.buttonShowMore');
+
+buttonShowMore.addEventListener ('click', function () {
+    window.scrollTo ({
+    left: 0,
+    top: showMoreSection.offsetTop,
+    });
+});
