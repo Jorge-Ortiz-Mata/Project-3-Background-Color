@@ -164,7 +164,7 @@ html {
     background-color: #ffffff;
 }
 
-.showMoreSection h2 {
+.showMoreSection h3 {
     background-color: #ffffff;
     border: 1px solid #ff0000;  /*   Border to delete later.  */
     width: auto;
@@ -206,7 +206,7 @@ html {
     flex-direction: column;
 }
 
-.backgroundProject h1 {
+.backgroundProject h2 {
     border: 1px solid #0077ff;  /*   Border to delete later.  */
     text-align: center;
     font-size: 45px;
@@ -224,11 +224,40 @@ html {
 
 /* --------------------------------------        FOURTH SECTION        -----------------------------------------*/
 
-.hexColors {
+.hexColorsSection {
+    border: 1px solid #0077ff;  /*   Border to delete later.  */
     height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
+.divHexBack {
+    border: 1px solid #ff0000;  /*   Border to delete later.  */
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
 
+.divHexBack h2 {
+    border: 1px solid #0077ff;  /*   Border to delete later.  */
+    text-align: center;
+    font-size: 45px;
+}
+
+.divHexBack p {
+    border: 1px solid #0077ff;  /*   Border to delete later.  */
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    width: 500px;
+    margin: auto;
+}
 
 /* --------------------------------------        FOOTER SECTION        -----------------------------------------*/
 

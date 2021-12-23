@@ -43,7 +43,7 @@ const backgroundProject = document.querySelector ('.backgroundProject');
 // ---------------  CREATE OBJETCS ------------------
 
 const buttonBackgroundChange = document.createElement ('button');
-const colorBackgroundTitle = document.createElement ('colorBackgroundTitle');
+const colorBackgroundTitle = document.createElement ('p');
 
 // ---------------  ADDING CLASES ------------------
 
@@ -77,5 +77,59 @@ buttonBackgroundChange.addEventListener ('click', changeColor);
 
 // ------------------------------------------------------------------- HEXADECIMAL COLORS SECTION ----------------------------------------------------------
 
+// ---------------  CREATE VARIABLES ------------------
+
 const hexColors = ['1', '2', '3', '4', '5', '6', '7', '8', '9',
                    'A', 'B', 'C', 'D', 'E', 'F' ];
+
+// ---------------  SELECT OBJETCS ------------------
+
+const hexColorsSection = document.querySelector ('.hexColorsSection');
+
+// ---------------  CREATE OBJETCS ------------------
+
+const divHexBack = document.createElement ('div');
+const hexTitle = document.createElement ('h2');
+const hexParragph = document.createElement ('p');
+const hexCode = document.createElement ('p');
+const hexButton = document.createElement ('button');
+
+// ---------------  APPEND OBJETCS ------------------
+
+hexColorsSection.appendChild (divHexBack);
+divHexBack.appendChild (hexTitle);
+divHexBack.appendChild (hexParragph);
+divHexBack.appendChild (hexCode);
+divHexBack.appendChild (hexButton);
+
+// ---------------  ADDING CLASSES ------------------
+
+divHexBack.classList.add ('divHexBack');
+hexTitle.classList.add ('hexTitle');
+hexParragph.classList.add ('hexParragph');
+hexCode.classList.add ('hexCode');
+hexButton.classList.add ('hexButton');
+
+// ---------------  ADDING TEXTS ------------------
+
+hexTitle.textContent = `Hexadecimal Background Color`;
+hexParragph.textContent = `Once you clicked on the button below, the background of this change will change.`;
+hexCode.textContent = `default`;
+hexButton.textContent = `Click me to change`;
+
+// ---------------  CREATE EVENT LISTENERS ------------------
+
+hexButton.addEventListener ('click', function () {
+
+    let cadena = '#';
+
+    for (let i = 0; i < 6; i++) {
+        let y = Math.floor (Math.random () * 15);
+        cadena += hexColors[y];
+    }
+
+    console.log(cadena);
+    hexCode.textContent = `${cadena}`;
+    hexColorsSection.style.backgroundColor = `${cadena}`;
+
+});
