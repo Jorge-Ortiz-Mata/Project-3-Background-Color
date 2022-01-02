@@ -1,5 +1,5 @@
-Project-3-Background-Color
-In this project, you will be able to change the background color by clicking in the buttons.
+# Project 03 Background Color
+### In this project, you will be able to change the background color by clicking in the buttons.
 
 - Name: *Project-3-Background-Color*;
 - Author: *Jorge Ortiz Mata*;
