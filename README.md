@@ -9,7 +9,11 @@
 
 [Description]: 
 
-	'Hello, I'm Jorge. In this project you will be able to change the background color of specific sections. You can click in the buttons on the website and automatically the color will change by itslef'. Take a look and see this project. All the information and files you will find on this repository.
+	'Hello, I'm Jorge. In this project you will be able to change 
+	the background color of specific sections. You can click in 
+	the buttons on the website and automatically the color will 
+	change by itslef'. Take a look and see this project. All the 
+	information and files you will find on this repository.
 
-	 Have a wonderful day!
-	 Greetings';
+Have a wonderful day!
+Greetings';
