@@ -21,3 +21,5 @@ Greetings :love_you_gesture:
 ### Live Demo.
 
 [Background Color] - (https://jorge-ortiz-mata.github.io/Project-3-Background-Color/)
+
+![](images/ImageWebSite-Project-03-BackgroundColor.PNG)
